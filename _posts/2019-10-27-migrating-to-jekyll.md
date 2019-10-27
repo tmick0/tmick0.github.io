@@ -102,9 +102,11 @@ move it to my custom domain -- I added a CNAME file to my repository and
 repointed my domain to my `.github.io` URL. After a few minutes (actually
 several -- this took a pretty damn long time), everything was working, with the
 exception of TLS. Allegedly, Github Pages will automatically acquire a Lets
-Encrypt cert after some time (up to 24 hours?). As of writing this post, it
+Encrypt cert after some time (up to 24 hours?). ~~As of writing this post, it
 hasn't happened yet; this downtime is less than ideal, but I suppose I can
-survive.
+survive.~~ *Update: immediately after publishing this, my certificate seems to
+have gone live. It's nice that this process was relatively painless. Thanks,
+Gitlab and Lets Encrypt!*
 
 Overall, I expect that my life will be less painful moving forward. With a very
 straightforward writing workflow (make a file, put stuff in it, `git push`) and
