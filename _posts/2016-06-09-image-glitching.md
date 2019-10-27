@@ -5,6 +5,7 @@ published: true
 title: Adventures in image glitching
 author: Travis Mick
 date: 2016-06-09
+image: /images/glitch_test-1.jpg
 ---
 
 [Databending](https://en.wikipedia.org/wiki/Databending) is a type of [glitch art](https://en.wikipedia.org/wiki/Glitch_art) wherein image files are intentionally corrupted in order to produce an aesthetic effect. Traditionally, these effects are produced by manually manipulating the compressed data in an image file. As a result, this is a trial-and-error process; often, edits will result in the file being completely corrupted and unopenable.
