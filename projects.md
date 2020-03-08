@@ -8,6 +8,8 @@ date: 2017-01-26
 ---
 A comprehensive list of my side projects can be found [on my GitHub profile](https://www.github.com/tmick0). However, many of these are incomplete. The following is a chronological list of projects which are in some way notable. Most have been completed, or at least developed to the point of minor usefulness.
 
+**[landsat_fetch](https://github.com/tmick0/landsat_fetch)**: An automated workflow for fetching, radiometrically correcting, and mosaicing or pansharpening Landsat 8 data. Developed in Spring 2020. Languages: Python. [Related post]({% post_url 2020-03-07-landsat-workflow %}).
+
 **[topostl](https://github.com/tmick0/topostl)**: A utility for generating 3D-printable meshes from SRTM terrain data. Developed in Summer 2019. Languages: Python. [Related post]({% post_url 2019-10-05-printing-terrain-meshes %}).
 
 **[alesisvsysex](https://github.com/tmick0/alesisvsysex)**: A graphical tool for configuring Alesis V-Series MIDI controllers, accomplished by reverse-engineering the SysEx protocol. Developed in Fall 2017. Languages: Python. [Related post]({% post_url 2017-11-12-alesis-v-config-gui %}).
