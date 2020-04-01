@@ -220,7 +220,7 @@ The VM implements 19 mnemonic instructions. In reality, the branch instructions 
 | brle     | address            | move the ip to address if last comparison was less or equal                    |
 | brgt     | address            | move the ip to address if last comparison was greater than                     |
 | brge     | address            | move the ip to address if last comparison was greater or equal                 |
-| hsv2rgb  | rh rs rv           | convert rgb values in registers to hsv (in place), each of hsv in [0, 255]     |
+| hsv2rgb  | rh rs rv           | convert hsv values in registers to rgb (in place), each of hsv in [0, 255]     |
 | init     | immd immc \[immf\] | initialize output channel immc with driver number immd and optional flags immf |
 | write    | rr rg rb immc      | buffer rgb value from registers on output channel immc                         |
 | send     | immc               | activate the buffered output of immc                                           |
