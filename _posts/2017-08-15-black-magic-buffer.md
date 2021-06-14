@@ -31,7 +31,7 @@ The next two sections overview the circular buffer's design and the behavior of 
 
 The circular buffer is a convenient approach to the storage of streaming data which is produced in real-time and consumed shortly thereafter. It "wraps around" so that new data may continually reuse the space previously occupied by data which has since been consumed.
 
-A circular buffer is typically incremented by storing two pointers (or indices): a *read pointer* (I'll call it `head`) and a *write pointer* (or `tail`). As is obvious, we write into the buffer at `tail`, and read from `head`. The structure might be defined as follows:
+A circular buffer is typically implemented by storing two pointers (or indices): a *read pointer* (I'll call it `head`) and a *write pointer* (or `tail`). As is obvious, we write into the buffer at `tail`, and read from `head`. The structure might be defined as follows:
 
 ```c
 typedef struct {
