@@ -2,8 +2,6 @@ title: lo.calho.st
 author: Travis Mick 
 description: ""
 
-author:
-  name: Travis Mick
 social-network-links:
   github: tmick0
 navbar-links:
@@ -34,6 +32,9 @@ hover-col: "#7bc9f1"
 footer-col: "#404040"
 footer-text-col: "#e0e0e0"
 footer-link-col: "#a0a0a0"
+site-css:
+  - /assets/css/custom.css
+   
 
 markdown: kramdown
 
