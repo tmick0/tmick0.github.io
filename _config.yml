@@ -11,14 +11,13 @@ navbar-links:
   Projects: projects
   About: about
 
+url-pretty: "lo.calho.st"
+
 gtag: G-9K304B4ZYD
 
 encoding: utf-8
 lang: en-US
 timezone: America/Denver
-
-plugins:
- - jekyll-paginate
 
 show_excerpts: true
 excerpt_length: 300
@@ -35,7 +34,7 @@ hover-col: "#7bc9f1"
 footer-col: "#404040"
 footer-text-col: "#e0e0e0"
 footer-link-col: "#a0a0a0"
-  
+
 markdown: kramdown
 
 permalink: /posts/:title/
@@ -58,8 +57,15 @@ defaults:
       show-avatar: false
 
 exclude:
-- Gemfile
-- Gemfile.lock
-- .jekyll-cache
-- CNAME
+  - CHANGELOG.md
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - screenshot.png
+  - docs/
 
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
