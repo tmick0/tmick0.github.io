@@ -8,6 +8,9 @@ date: 2017-01-26
 ---
 A comprehensive list of my side projects can be found [on my GitHub profile](https://www.github.com/tmick0). However, many of these are incomplete. The following is a chronological list of projects which are in some way notable. Most have been completed, or at least developed to the point of minor usefulness.
 
+**[sourceknight](https://github.com/tmick0/sourceknight)**: A build and dependency manager for sourcemod projects
+Developed in Summer 2021. Languages: Python. [Related post]({% post_url 2021-06-14-sourceknight %}).
+
 **[arduino-rgbctrl](https://github.com/tmick0/arduino-rgbctrl)**: A customizable RGB
 controller based on an application-specific virtual machine running on Arduino.
 Developed in Spring 2020. Languages: C, C++, Python, AVR assembly. [Related post]({% post_url 2020-03-28-rgb-arduino %}).
