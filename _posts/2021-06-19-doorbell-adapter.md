@@ -5,6 +5,7 @@ published: true
 title: Adapting a smart doorbell to an incompatible digital chime
 author: Travis Mick
 date: 2021-06-19
+image: /images/doorbell-adapter-full-schematic.png
 ---
 For a few months, I've been using an [Ubiquiti G4 Doorbell](https://store.ui.com/products/uvc-g4-doorbell),
 but recently chose to upgrade my mechanical chimebox to a digital one. Though The Ubiquiti store lists the
