@@ -8,7 +8,10 @@ date: 2017-01-26
 ---
 A comprehensive list of my side projects can be found [on my GitHub profile](https://www.github.com/tmick0). However, many of these are incomplete. The following is a chronological list of projects which are in some way notable. Most have been completed, or at least developed to the point of minor usefulness.
 
-**[sourceknight](https://github.com/tmick0/sourceknight)**: A build and dependency manager for sourcemod projects
+**[pymidisoundboard](https://github.com/tmick0/pymidisoundboard)**: A MIDI-triggered soundboard using gstreamer for audio, with a pyqt5 interface.
+Developed in Summer 2021. Languages: Python.
+
+**[sourceknight](https://github.com/tmick0/sourceknight)**: A build and dependency manager for sourcemod projects.
 Developed in Summer 2021. Languages: Python. [Related post]({% post_url 2021-06-14-sourceknight %}).
 
 **[arduino-rgbctrl](https://github.com/tmick0/arduino-rgbctrl)**: A customizable RGB
